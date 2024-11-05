@@ -1,4 +1,4 @@
-const apiUrl = 'https://project-pi-mauve.vercel.app/api';;
+const apiUrl = 'https://mi-tiendita-roan.vercel.app/api';;
 let selectedProductId = null;
 let selectedProviderId = null;
 
