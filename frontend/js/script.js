@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:5000/api';;
+const apiUrl = 'https://project-pi-mauve.vercel.app/api';;
 let selectedProductId = null;
 let selectedProviderId = null;
 
