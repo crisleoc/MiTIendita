@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos y Proveedores</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sección de Productos -->
+        <div class="section" id="product-section">
+            <h2>Gestión de Productos</h2>
+            <form id="productForm">
+                <input type="text" id="productName" placeholder="Nombre del producto" required>
+                <input type="number" id="productPrice" placeholder="Precio" required>
+                <input type="number" id="productStock" placeholder="Stock" required>
+                <button type="submit" id="saveProduct">Guardar Producto</button>
+            </form>
+            <ul id="productList"></ul>
+        </div>
+
+        <!-- Sección de Proveedores -->
+        <div class="section" id="provider-section">
+            <h2>Gestión de Proveedores</h2>
+            <form id="providerForm">
+                <input type="text" id="providerName" placeholder="Nombre del proveedor" required>
+                <input type="text" id="providerContact" placeholder="Contacto" required>
+                <button type="submit" id="saveProvider">Guardar Proveedor</button>
+            </form>
+            <ul id="providerList"></ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
